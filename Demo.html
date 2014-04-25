@@ -1,0 +1,32 @@
+<head>
+  <link href="font-awesome.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="jquery-1.11.0.min.js"></script>
+  </head>
+
+<body>
+  <div id="container">
+    <div id="corner"><i id="mainbtn" class="fa fa-bars fa-2x fa-inverse"></i>
+      <svg height="200" width="200">
+        <circle cx="0" cy="0" r="75" fill="black" />
+      </svg>
+    </div>
+  </div>
+
+    <div class='nav-container'>
+    <a href='#' class='deg0'><i class="fa fa-home fa-2x"></i></a>
+    <a href='#' class='deg30'><i class="fa fa-cog fa-2x"></i></a>
+    <a href='#' class='deg60'><i class="fa fa-comments fa-2x"></i></a>
+    <a href='#' class='deg90'><i class="fa fa-heart fa-2x"></i></a>
+  </div>
+
+</body>
+<script>
+  (function($) {
+  $(function() {
+    $('#mainbtn').click(function(){
+      $('.deg0, .deg30, .deg60, .deg90').toggleClass('open')
+    });
+  });
+})(jQuery);
+</script>

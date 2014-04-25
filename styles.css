@@ -1,0 +1,170 @@
+/**
+* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+* Richard Clark (http://richclarkdesign.com)
+* http://cssreset.com
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body {
+line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+nav ul {
+list-style:none;
+}
+blockquote, q {
+quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+del {
+text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input, select {
+vertical-align:middle;
+}
+
+
+#mainbtn {
+position:absolute;
+top:13px;
+left:15px;
+z-index:2;
+cursor:pointer;
+}
+
+a {
+text-decoration:none;
+color:black;
+}
+
+
+.nav-container {
+position: absolute;
+top:-50px;
+left:-47px;
+width: 100px;
+height: 100px;
+z-index:0;
+}
+.nav-container a {
+display: block;
+overflow: hidden;
+position: absolute;
+width: 32px; height: 32px;
+margin:50px;
+}
+.nav-container i { display: block; width: 100px; }
+.deg0 { transform: rotate(-25deg) translate(5.75em) rotate(-0deg);   -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;}
+.deg30 { transform: rotate(-25deg) translate(5.75em) rotate(-30deg);  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+.deg60 { transform: rotate(-25deg) translate(5.75em) rotate(-60deg);  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+.deg90 { transform: rotate(-25deg) translate(6em) rotate(-90deg);  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.fa-home:hover {color:tan;}
+.fa-cog:hover {color:gray;}
+.fa-comments:hover {color:teal;}
+.fa-heart:hover {color:red;}
+
+.open.deg0{
+/*transform*/
+-webkit-transform:rotate(0deg) translate(5.75em) rotate(-0deg);
+-moz-transform:rotate(0deg) translate(5.75em) rotate(-0deg);
+-ms-transform:rotate(0deg) translate(5.75em) rotate(-0deg);
+ -o-transform:rotate(0deg) translate(5.75em) rotate(-0deg);
+    transform:rotate(0deg) translate(5.75em) rotate(-0deg);
+}
+.open.deg30{
+/*transform*/
+-webkit-transform:rotate(30deg) translate(5.75em) rotate(-30deg);
+-moz-transform:rotate(30deg) translate(5.75em) rotate(-30deg);
+-ms-transform:rotate(30deg) translate(5.75em) rotate(-30deg);
+ -o-transform:rotate(30deg) translate(5.75em) rotate(-30deg);
+    transform:rotate(30deg) translate(5.75em) rotate(-30deg);
+}
+.open.deg60{
+/*transform*/
+-webkit-transform:rotate(60deg) translate(5.75em) rotate(-60deg);
+-moz-transform:rotate(60deg) translate(5.75em) rotate(-60deg);
+-ms-transform:rotate(60deg) translate(5.75em) rotate(-60deg);
+ -o-transform:rotate(60deg) translate(5.75em) rotate(-60deg);
+    transform:rotate(60deg) translate(5.75em) rotate(-60deg);
+}
+.open.deg90{
+/*transform*/
+-webkit-transform:rotate(90deg) translate(6em) rotate(-90deg);
+-moz-transform:rotate(90deg) translate(6em) rotate(-90deg);
+-ms-transform:rotate(90deg) translate(6em) rotate(-90deg);
+ -o-transform:rotate(90deg) translate(6em) rotate(-90deg);
+    transform:rotate(90deg) translate(6em) rotate(-90deg);
+}
+
